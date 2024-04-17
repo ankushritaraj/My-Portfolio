@@ -9,12 +9,6 @@ import com.bumptech.glide.Glide
 import com.firebase.ui.database.FirebaseRecyclerAdapter
 import com.firebase.ui.database.FirebaseRecyclerOptions
 
-import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Date
-import java.util.Locale
-import java.util.concurrent.TimeUnit
-
 class AchievementAdapter(options: FirebaseRecyclerOptions<AchievementData?>) :
     FirebaseRecyclerAdapter<AchievementData?, AchievementAdapter.userAdapterHolder?>(options) {
     override fun onBindViewHolder(
@@ -40,6 +34,4 @@ class AchievementAdapter(options: FirebaseRecyclerOptions<AchievementData?>) :
 
         }
     }
-
-
 }
